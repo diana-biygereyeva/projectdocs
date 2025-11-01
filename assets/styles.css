@@ -1,0 +1,92 @@
+/* === Import Google Fonts === */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/* === Basis Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* === Layout === */
+body {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background-color: #f8f9fa;
+}
+
+/* === Container Styling === */
+.container {
+  font-family: 'Roboto', sans-serif;
+  max-width: 65vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem; /* <--zorgt voor wat ruimte binnenin */
+}
+
+/* === Sidebar Header === */
+header {
+  width: 200px;
+  background-color: #ffffff;
+  border-right: 1px solid #ddd;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding: 0.5rem;
+  border-radius: 6px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+nav a:hover {
+  background-color: #0078d4;
+  color: white;
+}
+
+/* === Main Content === */
+main {
+  width: 100%;
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+main h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+main h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #000000;
+}
+
+main h3 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #0078d4;
+}
+
+main p {
+  margin-bottom: 0.75rem;
+}
+
+/* === Footer === */
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid #ddd;
+  font-size: 0.9rem;
+  color: #555;
+}
